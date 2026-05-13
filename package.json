@@ -1,0 +1,16 @@
+{
+  "name": "gymora-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install-all": "npm run install-client && npm run install-server",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "npx concurrently \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
