@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#020617" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#bef264;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="8" fill="url(#grad)" />
-  <g transform="translate(6, 6) scale(0.8)" fill="none" stroke="#020617" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M6 7.5h12M18 5.4v4.2M6 5.4v4.2M3 9h3M18 9h3" />
-    <path d="M14.4 12.6l3.6 3.6M17.1 11.7l1.8 1.8M11.7 17.1l1.8 1.8M18.9 10.8l1.8 1.8M9.9 19.8l1.8 1.8" />
+  <rect x="0" y="0" width="24" height="24" rx="6" fill="url(#grad)" stroke="none" />
+  <g transform="translate(3, 3) scale(0.75)">
+    <path d="m6.5 6.5 11 11"/>
+    <path d="m21 21-4.5-4.5"/>
+    <path d="m3 3 4.5 4.5"/>
+    <path d="m11 18-3-3 5-5 3 3-5 5Z"/>
+    <path d="m20.47 14.61 2.12 2.12a1 1 0 0 1 0 1.42l-2.83 2.83a1 1 0 0 1-1.42 0l-2.12-2.12"/>
+    <path d="m14.61 20.47 2.12 2.12a1 1 0 0 0 1.42 0l2.83-2.83a1 1 0 0 0 0-1.42l-2.12-2.12"/>
   </g>
 </svg>
